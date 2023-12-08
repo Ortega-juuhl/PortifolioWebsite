@@ -1,0 +1,455 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1a2029;
+  font-family: 'Poppins', sans-serif;
+  color: aliceblue;
+}
+
+.navbar {
+  display: flex;
+  font-size: 1.6vw;
+  gap: 4.16vw;
+  font-weight: 500;
+  color: white;
+  align-items: center;
+  background-color: #282E36;
+  width: 100%;
+  height: 12.5vh;
+  position: fixed;
+  top: 0;
+  z-index: 1030;
+  justify-content: space-between;
+}
+
+.navbar a {
+  text-decoration: none; /* Remove underline */
+  color: white;
+}
+
+#contact {
+  margin-right: 2.77vw;
+}
+
+#home,
+#about,
+#projects,
+#navbar-icons,
+#account,
+#contact {
+  transition: color 0.3s ease-in-out;
+  display: flex;
+  font-size: 1.6vw;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+#navbar-icons {
+  margin-left: 1.38vw;
+}
+
+#home:hover,
+#about:hover,
+#projects:hover,
+#contact:hover {
+  display: flex;
+  font-size: 1.6vw;
+  font-weight: 500;
+  color: #FFA737;
+  text-align: center;
+  cursor: pointer;
+}
+
+.main-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-weight: 600;
+  font-size: 5.55vw;
+  margin-top: 16.67vh;
+}
+
+#text-hello,
+#developer-text,
+#under-text {
+  color: #707070;
+}
+
+#developer-text {
+  color: #FFA737;
+}
+
+.under-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.8vw;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #707070;
+  margin-top: 2.08vh;
+}
+
+.projects-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFA737;
+  width: 13.33vw;
+  height: 8.77vh;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 10.93vh;
+  transition: all 0.3s ease-in-out;
+}
+
+#project-text {
+  color: #292F36;
+  font-weight: 600;
+  font-size: 1.74vw;
+  align-items: center;
+}
+
+.projects-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.about {
+  display: flex;
+  margin-bottom: 41.66vh;
+}
+
+.top-about-me {
+  margin-top: 41.66vh;
+}
+
+#main-text-about {
+  font-size: 3.33vw;
+  font-weight: 600;
+  text-align: center;
+}
+
+#under-text-about {
+  font-size: 2.08vw;
+  margin-top: 2.08vh;
+  color: #707070;
+  font-weight: 500;
+  text-align: center;
+}
+
+#underline-about {
+  margin: 0 auto;
+  width: 3.59vw;
+  height: 1.67vh;
+  background-color: #FFA737;
+  border-radius: 9px;
+  margin-top: 2.08vh;
+  text-align: center;
+}
+
+.about-me {
+  margin-left: 13.88vw;
+  font-size: 1.74vw;
+  color: #707070;
+  font-weight: 500;
+  flex: 1;
+}
+
+#about-me-title {
+  font-size: 3.89vw;
+  font-weight: 600;
+  margin-bottom: 2.08vh;
+  color: white;
+}
+
+#software-developer-text {
+  color: white;
+}
+
+.my-skills-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.04vw;
+  color: #292F36;
+  font-weight: 600;
+  font-size: 1.3vw;
+  margin-top: 0.83vh;
+}
+
+.my-skills {
+  flex: 1;
+}
+
+#HTML,
+#CSS,
+#JS,
+#git,
+#terminal,
+#python {
+  width: 5.55vw;
+  height: 2.92vh;
+  background-color: #FFA737;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#my-skills-title {
+  font-size: 3.89vw;
+  font-weight: 600;
+  color: white;
+  margin-left: 14.22vw;
+  margin-bottom: 2.08vh;
+}
+
+#main-text-projects {
+  font-size: 3.33vw;
+  font-weight: 600;
+  text-align: center;
+}
+
+#underline-projects {
+  margin: 0 auto;
+  width: 3.59vw;
+  height: 1.67vh;
+  background-color: #FFA737;
+  border-radius: 9px;
+  margin-top: 2.08vh;
+  text-align: center;
+}
+
+#under-text-projects {
+  font-size: 2.08vw;
+  margin-top: 2.08vh;
+  color: #707070;
+  font-weight: 500;
+  text-align: center;
+}
+
+.links {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs-container {
+  display: flex;
+  gap: 1.04vw;
+  margin-top: 8.33vh;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  gap: 0.83vw;
+  background-color: #282E36;
+  padding: 0.83vw;
+  width: 11%;
+  margin-top: 3.3vh;
+  margin-left: 1.04vw;
+  border-radius: 5px;
+}
+
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1.6vw;
+  color: white;
+  font-weight: 500;
+  white-space: nowrap;
+  padding: 0.83vw 1.67vw;
+  text-align: left;
+}
+
+.tab button.active {
+  color: #FFA737;
+}
+
+.tabcontent {
+  display: none;
+  padding: 0.83vw 1.67vw;
+  border-top: none;
+  position: absolute;
+  top: 50%;
+  left: 56.8%;
+  width: 80%;
+  height: 90%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #282E36;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.btn {
+  border-radius: 5px;
+  box-shadow: none;
+  background-color: transparent;
+  border: 3.5px solid #FFA737;
+  color: white;
+  font-weight: 600;
+  font-size: 1.39vw;
+  width: 8.33vw;
+  height: 6.33vh;
+  cursor: pointer;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5.5vh;
+  width: 20.83vw;
+  background-color: transparent;
+  border: 0.21vw solid white;
+  border-radius: 5px;
+}
+
+.form-styling {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 9.17vh;
+}
+
+.faq-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.faq-question {
+  cursor: pointer;
+  margin-bottom: 1.04vh;
+  border: 0.2vw solid #ccc;
+  border-radius: 5px;
+  padding: 0.67vw;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.faq-answer.active {
+  max-height: 5.55vh;
+  overflow: visible;
+  z-index: 2;
+}
+
+.btn-long,
+.btn-mssg {
+  border-radius: 2px;
+  box-shadow: none;
+  background-color: transparent;
+  border: 4px solid #FFA737;
+  color: white;
+  font-weight: 600;
+  font-size: 1.39vw;
+  width: 24.31vw;
+  height: 7.33vh;
+  cursor: pointer;
+}
+
+#contact-me {
+  display: flex;
+  justify-content: center;
+}
+
+/* Add this CSS to your existing stylesheet */
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 30vh;
+  z-index: 1;
+  border-radius: 2%;
+}
+
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style dropdown links */
+.dropdown-content a {
+  color: black;
+  padding: 2vh 0.3vh;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+#faqs {
+  display: none;
+}
+
+#contact-background{
+  height: 70vh;
+  width: 90vh;
+  background-color: #282E36;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#send-btn-contact{
+  margin-left: 63vh;
+  margin-top: auto;
+  background-color: #FFA737;
+  color: #292F36;
+}
+
+#message-contact{
+  color: #707070;
+  font-weight: 500;
+  font-size: 3vh;
+  margin-right: 66vh;
+  margin-top: auto;
+  display: flex;
+}
+
+#contact-message{
+  height: 45vh;
+  width: 80vh;
+  border-radius: 2%;
+  background-color: #4F4F4F;
+  border: none;
+}
+
+.space{
+  margin-top: 20vh;
+}

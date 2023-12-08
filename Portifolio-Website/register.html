@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking to an external CSS file -->
+</head>
+
+<body>
+    <div class="form-styling">
+        <form action="register.php" method="post"> <!-- Form for user registration, form action points to 'register.php' -->
+            <input type="text" id="username" name="username" required placeholder="Username..."><br><br>
+            <input type="email" id="email" name="email" required placeholder="Email..."><br><br>
+            <input type="password" id="password" name="password" required placeholder="Password..."><br><br>
+            <br>
+            <input type="submit" value="Register" class="btn"> <!-- Submit button to register -->
+        </form>
+        <!-- Anchor tag to redirect users to the login page -->
+        <a href="login.html" class="btn">Login</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Login</title>
+    <!-- Link to an external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Form styling -->
+    <div class="form-styling">
+        <!-- Login form -->
+        <form action="login.php" method="post">
+            <!-- Input field for username -->
+            <input type="text" id="username" name="username" required placeholder="Username..."><br><br>
+            
+            <!-- Input field for password -->
+            <input type="password" id="password" name="password" required placeholder="Password..."><br><br>
+            
+            <!-- Login button and link to register -->
+            <div class="login-container">
+                <!-- Login button -->
+                <input type="submit" value="Login" class="btn">
+                <br>
+                <!-- Link to register -->
+                <div id="signin-button">
+                    <p>Har ikke en konto?</p> <!-- Text in Norwegian: "Don't have an account?" -->
+                    <a href="register.html" class="btn">SIGN IN</a> <!-- Link to register -->
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
